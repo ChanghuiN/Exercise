@@ -5,6 +5,6 @@
 #ifndef EXERCISE_FINDINPARTIALLYSORTEDMATRIX_H
 #define EXERCISE_FINDINPARTIALLYSORTEDMATRIX_H
 
-void Test3_FindInPartiallySortedMatrix();
+void Test_3_FindInPartiallySortedMatrix();
 
 #endif //EXERCISE_FINDINPARTIALLYSORTEDMATRIX_H

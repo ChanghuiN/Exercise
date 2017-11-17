@@ -33,7 +33,7 @@ bool Find(int* matrix, int rows, int columns, int number)
 }
 
 // ====================测试代码====================
-void Test(char* testName, int* matrix, int rows, int columns, int number, bool expected)
+void Test_FindInPartiallySortedMatrix(char *testName, int *matrix, int rows, int columns, int number, bool expected)
 {
     if(testName != NULL)
         printf("%s begins: ", testName);
@@ -50,10 +50,10 @@ void Test(char* testName, int* matrix, int rows, int columns, int number, bool e
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数在数组中
-void Test1()
+void Test1_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test1", (int*)matrix, 4, 4, 7, true);
+    Test_FindInPartiallySortedMatrix("Test1", (int *) matrix, 4, 4, 7, true);
 }
 
 //  1   2   8   9
@@ -61,10 +61,10 @@ void Test1()
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数不在数组中
-void Test2()
+void Test2_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test2", (int*)matrix, 4, 4, 5, false);
+    Test_FindInPartiallySortedMatrix("Test2", (int *) matrix, 4, 4, 5, false);
 }
 
 //  1   2   8   9
@@ -72,10 +72,10 @@ void Test2()
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数是数组中最小的数字
-void Test3()
+void Test3_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test3", (int*)matrix, 4, 4, 1, true);
+    Test_FindInPartiallySortedMatrix("Test3", (int *) matrix, 4, 4, 1, true);
 }
 
 //  1   2   8   9
@@ -83,10 +83,10 @@ void Test3()
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数是数组中最大的数字
-void Test4()
+void Test4_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test4", (int*)matrix, 4, 4, 15, true);
+    Test_FindInPartiallySortedMatrix("Test4", (int *) matrix, 4, 4, 15, true);
 }
 
 //  1   2   8   9
@@ -94,10 +94,10 @@ void Test4()
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数比数组中最小的数字还小
-void Test5()
+void Test5_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test5", (int*)matrix, 4, 4, 0, false);
+    Test_FindInPartiallySortedMatrix("Test5", (int *) matrix, 4, 4, 0, false);
 }
 
 //  1   2   8   9
@@ -105,26 +105,26 @@ void Test5()
 //  4   7   10  13
 //  6   8   11  15
 // 要查找的数比数组中最大的数字还大
-void Test6()
+void Test6_FindInPartiallySortedMatrix()
 {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    Test("Test6", (int*)matrix, 4, 4, 16, false);
+    Test_FindInPartiallySortedMatrix("Test6", (int *) matrix, 4, 4, 16, false);
 }
 
 // 鲁棒性测试，输入空指针
-void Test7()
+void Test7_FindInPartiallySortedMatrix()
 {
-    Test("Test7", NULL, 0, 0, 16, false);
+    Test_FindInPartiallySortedMatrix("Test7", NULL, 0, 0, 16, false);
 }
 
-void Test3_FindInPartiallySortedMatrix()
+void Test_3_FindInPartiallySortedMatrix()
 {
-    Test1();
-    Test2();
-    Test3();
-    Test4();
-    Test5();
-    Test6();
-    Test7();
+    Test1_FindInPartiallySortedMatrix();
+    Test2_FindInPartiallySortedMatrix();
+    Test3_FindInPartiallySortedMatrix();
+    Test4_FindInPartiallySortedMatrix();
+    Test5_FindInPartiallySortedMatrix();
+    Test6_FindInPartiallySortedMatrix();
+    Test7_FindInPartiallySortedMatrix();
 
 }
