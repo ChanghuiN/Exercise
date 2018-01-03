@@ -1,0 +1,14 @@
+//
+// Created by ChanghuiN on 2018/1/4.
+//
+
+#ifndef EXERCISE_MINNUMBERINROTATEDARRAY_H
+#define EXERCISE_MINNUMBERINROTATEDARRAY_H
+
+
+class MinNumberInRotatedArray {
+
+};
+
+
+#endif //EXERCISE_MINNUMBERINROTATEDARRAY_H

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "InterviewQuestions/3.FindInPartiallySortedMatrix/FindInPartiallySortedMatrix.h"
-#include "InterviewQuestions/4.ReplaceBlank/ReplaceBlank.h"
-#include "InterviewQuestions/5.PrintListInReversedOrder/PrintListInReversedOrder.h"
+#include "InterviewQuestions/03_FindInPartiallySortedMatrix/FindInPartiallySortedMatrix.h"
+#include "InterviewQuestions/04_ReplaceBlank/ReplaceBlank.h"
+#include "InterviewQuestions/05_PrintListInReversedOrder/PrintListInReversedOrder.h"
 
 int main() {
     printf("Hello, World!\n");

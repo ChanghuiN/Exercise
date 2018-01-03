@@ -1,0 +1,14 @@
+//
+// Created by ChanghuiN on 2018/1/4.
+//
+
+#ifndef EXERCISE_PRINT1TOMAXOFNDIGITS_H
+#define EXERCISE_PRINT1TOMAXOFNDIGITS_H
+
+
+class Print1ToMaxOfNDigits {
+
+};
+
+
+#endif //EXERCISE_PRINT1TOMAXOFNDIGITS_H

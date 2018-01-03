@@ -1,6 +1,8 @@
 //
 // Created by ChanghuiN on 17-11-15.
 //
+// 单向链表
+//
 
 struct ListNode
 {

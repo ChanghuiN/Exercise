@@ -1,6 +1,8 @@
 //
 // Created by ChanghuiN on 2017/11/15.
 //
+// 二叉树
+//
 struct BinaryTreeNode
 {
     int                    m_nValue;
