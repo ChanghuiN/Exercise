@@ -1,0 +1,14 @@
+//
+// Created by ChanghuiN on 2018/1/5.
+//
+
+#ifndef EXERCISE_GREATESTSUMOFSUBARRAYS_H
+#define EXERCISE_GREATESTSUMOFSUBARRAYS_H
+
+
+class GreatestSumOfSubarrays {
+
+};
+
+
+#endif //EXERCISE_GREATESTSUMOFSUBARRAYS_H

@@ -38,5 +38,27 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/19_MirrorOfBinaryTree/MirrorOfBinaryTree.cpp
         InterviewQuestions/19_MirrorOfBinaryTree/MirrorOfBinaryTree.h
         InterviewQuestions/20_PrintMatrix/PrintMatrix.cpp
-        InterviewQuestions/20_PrintMatrix/PrintMatrix.h)
+        InterviewQuestions/20_PrintMatrix/PrintMatrix.h
+        InterviewQuestions/21_MinInStack/MinInStack.cpp
+        InterviewQuestions/21_MinInStack/MinInStack.h
+        InterviewQuestions/22_StackPushPopOrder/StackPushPopOrder.cpp
+        InterviewQuestions/22_StackPushPopOrder/StackPushPopOrder.h
+        InterviewQuestions/23_PrintTreeFromTopToBottom/PrintTreeFromTopToBottom.cpp
+        InterviewQuestions/23_PrintTreeFromTopToBottom/PrintTreeFromTopToBottom.h
+        InterviewQuestions/24_SquenceOfBST/SquenceOfBST.cpp
+        InterviewQuestions/24_SquenceOfBST/SquenceOfBST.h
+        InterviewQuestions/25_PathInTree/PathInTree.cpp
+        InterviewQuestions/25_PathInTree/PathInTree.h
+        InterviewQuestions/26_ComplexList/ComplexList.cpp
+        InterviewQuestions/26_ComplexList/ComplexList.h
+        InterviewQuestions/27_ConvertBinarySearchTree/ConvertBinarySearchTree.cpp
+        InterviewQuestions/27_ConvertBinarySearchTree/ConvertBinarySearchTree.h
+        InterviewQuestions/28_StringPermutation/StringPermutation.cpp
+        InterviewQuestions/28_StringPermutation/StringPermutation.h
+        InterviewQuestions/29_MoreThanHalfNumber/MoreThanHalfNumber.cpp
+        InterviewQuestions/29_MoreThanHalfNumber/MoreThanHalfNumber.h
+        InterviewQuestions/30_KLeastNumbers/KLeastNumbers.cpp
+        InterviewQuestions/30_KLeastNumbers/KLeastNumbers.h
+        InterviewQuestions/31_GreatestSumOfSubarrays/GreatestSumOfSubarrays.cpp
+        InterviewQuestions/31_GreatestSumOfSubarrays/GreatestSumOfSubarrays.h)
 add_executable(Exercise ${SOURCE_FILES})
