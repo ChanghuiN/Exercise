@@ -60,5 +60,21 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/30_KLeastNumbers/KLeastNumbers.cpp
         InterviewQuestions/30_KLeastNumbers/KLeastNumbers.h
         InterviewQuestions/31_GreatestSumOfSubarrays/GreatestSumOfSubarrays.cpp
-        InterviewQuestions/31_GreatestSumOfSubarrays/GreatestSumOfSubarrays.h)
+        InterviewQuestions/31_GreatestSumOfSubarrays/GreatestSumOfSubarrays.h
+        InterviewQuestions/32_NumberOf1/NumberOf1.cpp
+        InterviewQuestions/32_NumberOf1/NumberOf1.h
+        InterviewQuestions/33_SortArrayForMinNumber/SortArrayForMinNumber.cpp
+        InterviewQuestions/33_SortArrayForMinNumber/SortArrayForMinNumber.h
+        InterviewQuestions/34_UglyNumber/UglyNumber.cpp
+        InterviewQuestions/34_UglyNumber/UglyNumber.h
+        InterviewQuestions/35_FirstNotRepeatingChar/FirstNotRepeatingChar.cpp
+        InterviewQuestions/35_FirstNotRepeatingChar/FirstNotRepeatingChar.h
+        InterviewQuestions/36_InversePairs/InversePairs.cpp
+        InterviewQuestions/36_InversePairs/InversePairs.h
+        InterviewQuestions/37_FirstCommandNodesInLists/FirstCommandNodesInLists.cpp
+        InterviewQuestions/37_FirstCommandNodesInLists/FirstCommandNodesInLists.h
+        InterviewQuestions/38_NumberOfK/NumberOfK.cpp
+        InterviewQuestions/38_NumberOfK/NumberOfK.h
+        InterviewQuestions/39_1_TreeDepth/TreeDepth.cpp
+        InterviewQuestions/39_1_TreeDepth/TreeDepth.h InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.cpp InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.h InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.cpp InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.h)
 add_executable(Exercise ${SOURCE_FILES})

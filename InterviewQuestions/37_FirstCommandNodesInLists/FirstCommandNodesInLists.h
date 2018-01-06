@@ -1,0 +1,14 @@
+//
+// Created by changhuin on 18-1-6.
+//
+
+#ifndef EXERCISE_FIRSTCOMMANDNODESINLISTS_H
+#define EXERCISE_FIRSTCOMMANDNODESINLISTS_H
+
+
+class FirstCommandNodesInLists {
+
+};
+
+
+#endif //EXERCISE_FIRSTCOMMANDNODESINLISTS_H
