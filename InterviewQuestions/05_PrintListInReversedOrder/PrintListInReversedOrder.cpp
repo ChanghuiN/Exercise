@@ -5,7 +5,6 @@
 #include "PrintListInReversedOrder.h"
 
 #include <stack>
-#include "../Utilities/List.h"
 #include <stdio.h>
 
 void PrintListReversingly_Iteratively(ListNode* pHead)
