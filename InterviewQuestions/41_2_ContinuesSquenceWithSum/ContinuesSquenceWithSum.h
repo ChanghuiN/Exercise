@@ -1,0 +1,14 @@
+//
+// Created by ChanghuiN on 2018/1/9.
+//
+
+#ifndef EXERCISE_CONTINUESSQUENCEWITHSUM_H
+#define EXERCISE_CONTINUESSQUENCEWITHSUM_H
+
+
+class ContinuesSquenceWithSum {
+
+};
+
+
+#endif //EXERCISE_CONTINUESSQUENCEWITHSUM_H

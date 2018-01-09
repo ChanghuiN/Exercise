@@ -76,5 +76,33 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/38_NumberOfK/NumberOfK.cpp
         InterviewQuestions/38_NumberOfK/NumberOfK.h
         InterviewQuestions/39_1_TreeDepth/TreeDepth.cpp
-        InterviewQuestions/39_1_TreeDepth/TreeDepth.h InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.cpp InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.h InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.cpp InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.h)
+        InterviewQuestions/39_1_TreeDepth/TreeDepth.h
+        InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.cpp
+        InterviewQuestions/39_2_BalancedBinaryTree/BalancedBinaryTree.h
+        InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.cpp
+        InterviewQuestions/40_NumbersAppearOnce/NumbersAppearOnce.h
+        InterviewQuestions/41_1_TwoNumbersWithSum/TwoNumbersWithSum.cpp
+        InterviewQuestions/41_1_TwoNumbersWithSum/TwoNumbersWithSum.h
+        InterviewQuestions/41_2_ContinuesSquenceWithSum/ContinuesSquenceWithSum.cpp
+        InterviewQuestions/41_2_ContinuesSquenceWithSum/ContinuesSquenceWithSum.h
+        InterviewQuestions/42_1_ReverseWordsInSentence/ReverseWordsInSentence.cpp
+        InterviewQuestions/42_1_ReverseWordsInSentence/ReverseWordsInSentence.h
+        InterviewQuestions/42_2_LeftRotateString/LeftRotateString.cpp
+        InterviewQuestions/42_2_LeftRotateString/LeftRotateString.h
+        InterviewQuestions/43_DicesProbability/DicesProbability.cpp
+        InterviewQuestions/43_DicesProbability/DicesProbability.h
+        InterviewQuestions/44_ContinousCards/ContinousCards.cpp
+        InterviewQuestions/44_ContinousCards/ContinousCards.h
+        InterviewQuestions/45_LastNumberInCircle/LastNumberInCircle.cpp
+        InterviewQuestions/45_LastNumberInCircle/LastNumberInCircle.h
+        InterviewQuestions/46_Accumulate/Accumulate.cpp
+        InterviewQuestions/46_Accumulate/Accumulate.h
+        InterviewQuestions/47_AddTwoNumbers/AddTwoNumbers.cpp
+        InterviewQuestions/47_AddTwoNumbers/AddTwoNumbers.h
+        InterviewQuestions/48_SealedClass/SealedClass.cpp
+        InterviewQuestions/48_SealedClass/SealedClass.h
+        InterviewQuestions/49_StringToInt/StringToInt.cpp
+        InterviewQuestions/49_StringToInt/StringToInt.h
+        InterviewQuestions/50_CommonParentInTree/CommonParentInTree.cpp
+        InterviewQuestions/50_CommonParentInTree/CommonParentInTree.h)
 add_executable(Exercise ${SOURCE_FILES})
