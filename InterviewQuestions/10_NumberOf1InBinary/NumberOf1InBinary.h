@@ -7,10 +7,6 @@
 #define EXERCISE_NUMBEROF1INBINARY_H
 
 
-class NumberOf1InBinary {
-
-};
-
 // 与 <<1 与
 int NumberOf1_Solution1(int n);
 

@@ -7,10 +7,6 @@
 #define EXERCISE_PRINT1TOMAXOFNDIGITS_H
 
 
-class Print1ToMaxOfNDigits {
-
-};
-
 void Print1ToMaxOfNDigits_1(int n);
 
 // 字符串number表示一个数字，在 number上增加1

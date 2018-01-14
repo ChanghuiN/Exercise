@@ -7,10 +7,6 @@
 #define EXERCISE_POWER_H
 
 
-class Power {
-
-};
-
 double Power(double base, int exponent);
 
 double PowerWithUnsignedExponent(double base, unsigned int exponent);

@@ -104,5 +104,6 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/49_StringToInt/StringToInt.cpp
         InterviewQuestions/49_StringToInt/StringToInt.h
         InterviewQuestions/50_CommonParentInTree/CommonParentInTree.cpp
-        InterviewQuestions/50_CommonParentInTree/CommonParentInTree.h)
+        InterviewQuestions/50_CommonParentInTree/CommonParentInTree.h
+        InterviewQuestions/21_MinInStack/StackWithMin.h)
 add_executable(Exercise ${SOURCE_FILES})
