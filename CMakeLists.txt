@@ -49,8 +49,8 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/24_SquenceOfBST/SquenceOfBST.h
         InterviewQuestions/25_PathInTree/PathInTree.cpp
         InterviewQuestions/25_PathInTree/PathInTree.h
-        InterviewQuestions/26_ComplexList/ComplexList.cpp
-        InterviewQuestions/26_ComplexList/ComplexList.h
+        InterviewQuestions/26_CopyComplextList/ComplexList.cpp
+        InterviewQuestions/26_CopyComplextList/ComplexList.h
         InterviewQuestions/27_ConvertBinarySearchTree/ConvertBinarySearchTree.cpp
         InterviewQuestions/27_ConvertBinarySearchTree/ConvertBinarySearchTree.h
         InterviewQuestions/28_StringPermutation/StringPermutation.cpp
@@ -105,5 +105,7 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/49_StringToInt/StringToInt.h
         InterviewQuestions/50_CommonParentInTree/CommonParentInTree.cpp
         InterviewQuestions/50_CommonParentInTree/CommonParentInTree.h
-        InterviewQuestions/21_MinInStack/StackWithMin.h)
+        InterviewQuestions/21_MinInStack/StackWithMin.h
+        InterviewQuestions/26_CopyComplextList/CopyComplextList.cpp
+        InterviewQuestions/26_CopyComplextList/CopyComplextList.h)
 add_executable(Exercise ${SOURCE_FILES})
