@@ -7,9 +7,11 @@
 #define EXERCISE_REVERSEWORDSINSENTENCE_H
 
 
-class ReverseWordsInSentence {
 
-};
+char* ReverseSentence(char *pData);
 
+void Test_ReverseWordsInSentence(char* testName, char* input, char* expectedResult);
+
+void Test_42_1_ReverseWordsInSentence();
 
 #endif //EXERCISE_REVERSEWORDSINSENTENCE_H

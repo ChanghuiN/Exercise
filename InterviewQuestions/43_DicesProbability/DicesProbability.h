@@ -7,9 +7,10 @@
 #define EXERCISE_DICESPROBABILITY_H
 
 
-class DicesProbability {
+void PrintProbability_Solution2(int number);
 
-};
+void Test_DicesProbability(int n);
 
+void Test_43_DicesProbability();
 
 #endif //EXERCISE_DICESPROBABILITY_H

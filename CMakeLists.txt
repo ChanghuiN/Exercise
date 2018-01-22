@@ -99,7 +99,6 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/46_Accumulate/Accumulate.h
         InterviewQuestions/47_AddTwoNumbers/AddTwoNumbers.cpp
         InterviewQuestions/47_AddTwoNumbers/AddTwoNumbers.h
-        InterviewQuestions/48_SealedClass/SealedClass.cpp
         InterviewQuestions/48_SealedClass/SealedClass.h
         InterviewQuestions/49_StringToInt/StringToInt.cpp
         InterviewQuestions/49_StringToInt/StringToInt.h
@@ -107,5 +106,7 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/50_CommonParentInTree/CommonParentInTree.h
         InterviewQuestions/21_MinInStack/StackWithMin.h
         InterviewQuestions/26_CopyComplextList/CopyComplextList.cpp
-        InterviewQuestions/26_CopyComplextList/CopyComplextList.h)
+        InterviewQuestions/26_CopyComplextList/CopyComplextList.h
+        InterviewQuestions/Utilities/StringUtil.cpp
+        InterviewQuestions/Utilities/StringUtil.h)
 add_executable(Exercise ${SOURCE_FILES})

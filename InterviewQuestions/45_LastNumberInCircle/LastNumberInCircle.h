@@ -7,9 +7,10 @@
 #define EXERCISE_LASTNUMBERINCIRCLE_H
 
 
-class LastNumberInCircle {
+int LastRemaining_Solution2(unsigned int n, unsigned int m);
 
-};
+void Test_LastNumberInCircle(char* testName, unsigned int n, unsigned int m, int expected);
 
+void Test_45_LastNumberInCircle();
 
 #endif //EXERCISE_LASTNUMBERINCIRCLE_H

@@ -7,9 +7,11 @@
 #define EXERCISE_TWONUMBERSWITHSUM_H
 
 
-class TwoNumbersWithSum {
 
-};
+bool FindNumbersWithSum(int data[], int length, int sum, int* num1, int* num2);
 
+void Test_TwoNumbersWithSum(char* testName, int data[], int length, int sum, bool expectedReturn);
+
+void Test_41_1_TwoNumbersWithSum();
 
 #endif //EXERCISE_TWONUMBERSWITHSUM_H

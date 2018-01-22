@@ -7,8 +7,35 @@
 #define EXERCISE_SEALEDCLASS_H
 
 
-class SealedClass {
+// 私有的构造函数
+class SealedClass1 {
 
+public:
+    static SealedClass1* GetInstance(){
+        return new SealedClass1();
+    }
+    static void DelectInstance(SealedClass1 pInstance){
+        delete pInstance;
+    }
+
+private:
+    SealedClass1() {};
+    ~SealedClass1() {};
+};
+
+// 通过虚拟继承
+template <typename T> class MakeSealed{
+    friend T;
+
+private:
+    MakeSealed() {};
+    ~MakeSealed() {};
+};
+
+class SealedClass2 : virtual MakeSealed<SealedClass2>{
+public:
+    SealedClass2() {};
+    ~SealedClass2() {};
 };
 
 
