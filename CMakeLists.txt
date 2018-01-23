@@ -108,5 +108,6 @@ set(SOURCE_FILES main.cpp
         InterviewQuestions/26_CopyComplextList/CopyComplextList.cpp
         InterviewQuestions/26_CopyComplextList/CopyComplextList.h
         InterviewQuestions/Utilities/StringUtil.cpp
-        InterviewQuestions/Utilities/StringUtil.h)
+        InterviewQuestions/Utilities/StringUtil.h
+        InterviewQuestions/07_QueueWithTwoStacks/Queue.h)
 add_executable(Exercise ${SOURCE_FILES})

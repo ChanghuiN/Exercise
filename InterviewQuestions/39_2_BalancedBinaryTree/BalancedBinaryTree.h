@@ -16,7 +16,7 @@ bool IsBalanced_Solution1(BinaryTreeNode* pRoot);
 
 bool IsBalanced(BinaryTreeNode* pRoot, int* pDepth);
 
-bool IsBalanced_Solution2(BinaryTreeNode* pRoot)
+bool IsBalanced_Solution2(BinaryTreeNode* pRoot);
 
 void Test_BalancedBinaryTree(char* testName, BinaryTreeNode* pRoot, bool expected);
 

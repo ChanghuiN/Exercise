@@ -14,7 +14,7 @@
 BinaryTreeNode* Convert(BinaryTreeNode* pRootOfTree);
 
 // 递归
-void ConvertNode(BinaryTreeNode* pNode, BinaryTreeNode** pLastNodeInList)
+void ConvertNode(BinaryTreeNode* pNode, BinaryTreeNode** pLastNodeInList);
 
 void Test_ConvertBinarySearchTree(char* testName, BinaryTreeNode* pRootOfTree);
 

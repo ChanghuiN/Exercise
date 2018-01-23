@@ -20,7 +20,7 @@ void Print1ToMaxOfNDigitsRecursively(char* number, int length, int index);
 // ====================公共函数====================
 // 字符串number表示一个数字，数字有若干个0开头
 // 打印出这个数字，并忽略开头的0
-void PrintNumber(char* number)
+void PrintNumber(char* number);
 
 void Test_Print1ToMaxOfNDigits();
 

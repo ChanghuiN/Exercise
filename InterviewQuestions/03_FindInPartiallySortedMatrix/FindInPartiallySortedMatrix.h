@@ -10,7 +10,7 @@
 
 bool Find(int *matrix, int rows, int columns, int number);
 
-void Test_FindInPartiallySortedMatrix(char *testName, int *matrix, int rows, int columns, int number, bool expected)
+void Test_FindInPartiallySortedMatrix(char *testName, int *matrix, int rows, int columns, int number, bool expected);
 
 void Test_3_FindInPartiallySortedMatrix();
 

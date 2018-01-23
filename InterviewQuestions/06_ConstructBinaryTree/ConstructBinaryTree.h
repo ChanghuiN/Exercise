@@ -18,11 +18,7 @@
  */
 BinaryTreeNode *Construct(int *preorder, int *inorder, int length);
 
-BinaryTreeNode *ConstructCore
-        (
-                int *startPreorder, int *endPreorder,
-                int *startInorder, int *endInorder
-        );
+BinaryTreeNode *ConstructCore(int *startPreorder, int *endPreorder, int *startInorder, int *endInorder);
 
 void Test_ConstructBinaryTree(char *testName, int *preorder, int *inorder, int length);
 
