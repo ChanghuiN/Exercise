@@ -8,6 +8,9 @@
 
 int Min(int* numbers, int length);
 
+// 顺序查找
+int MinInOrder(int* numbers, int index1, int index2);
+
 void Test_MinNumberInRotatedArray(int* numbers, int length, int expected);
 
 void Test_8_MinNumberInRotatedArray();

@@ -19,7 +19,7 @@ long Fibonacci_Solution2(unsigned n);
 // 基于矩阵乘法
 long Fibonacci_Solution3(unsigned int n);
 
-void Test_Fibonacci();
+void Test_Fibonacci(int n, int expected);
 
 void Test_9_Fibonacci();
 
