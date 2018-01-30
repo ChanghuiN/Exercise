@@ -11,7 +11,9 @@ double Power(double base, int exponent);
 
 double PowerWithUnsignedExponent(double base, unsigned int exponent);
 
-void Test_Power();
+bool equal(double num1, double num2);
+
+void Test_Power(double base, int exponent, double expectedResult, bool expectedFlag);
 
 void Test_11_Power();
 

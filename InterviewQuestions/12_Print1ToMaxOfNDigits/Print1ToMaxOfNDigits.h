@@ -13,6 +13,8 @@ void Print1ToMaxOfNDigits_1(int n);
 // 如果做加法溢出，则返回true；否则为false
 bool Increment(char* number);
 
+// 通过递归
+// EXC_BAD_ACCESS (code=2, address=0x7ffee863fffc)
 void Print1ToMaxOfNDigits_2(int n);
 
 void Print1ToMaxOfNDigitsRecursively(char* number, int length, int index);

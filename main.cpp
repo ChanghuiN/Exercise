@@ -1,13 +1,19 @@
 #include <stdio.h>
 
-#include "InterviewQuestions/03_FindInPartiallySortedMatrix/FindInPartiallySortedMatrix.h"
-#include "InterviewQuestions/04_ReplaceBlank/ReplaceBlank.h"
-#include "InterviewQuestions/05_PrintListInReversedOrder/PrintListInReversedOrder.h"
-#include "InterviewQuestions/06_ConstructBinaryTree/ConstructBinaryTree.h"
-#include "InterviewQuestions/07_QueueWithTwoStacks/QueueWithTwoStacks.h"
-#include "InterviewQuestions/08_MinNumberInRotatedArray/MinNumberInRotatedArray.h"
-#include "InterviewQuestions/09_Fibonacci/Fibonacci.h"
-#include "InterviewQuestions/10_NumberOf1InBinary/NumberOf1InBinary.h"
+//#include "InterviewQuestions/03_FindInPartiallySortedMatrix/FindInPartiallySortedMatrix.h"
+//#include "InterviewQuestions/04_ReplaceBlank/ReplaceBlank.h"
+//#include "InterviewQuestions/05_PrintListInReversedOrder/PrintListInReversedOrder.h"
+//#include "InterviewQuestions/06_ConstructBinaryTree/ConstructBinaryTree.h"
+//#include "InterviewQuestions/07_QueueWithTwoStacks/QueueWithTwoStacks.h"
+//#include "InterviewQuestions/08_MinNumberInRotatedArray/MinNumberInRotatedArray.h"
+//#include "InterviewQuestions/09_Fibonacci/Fibonacci.h"
+//#include "InterviewQuestions/10_NumberOf1InBinary/NumberOf1InBinary.h"
+//#include "InterviewQuestions/11_Power/Power.h"
+//#include "InterviewQuestions/12_Print1ToMaxOfNDigits/Print1ToMaxOfNDigits.h"
+//#include "InterviewQuestions/13_DeleteNodeInList/DeleteNodeInList.h"
+//#include "InterviewQuestions/14_ReorderArray/ReorderArray.h"
+//#include "InterviewQuestions/15_KthNodeFromEnd/KthNodeFromEnd.h"
+#include "InterviewQuestions/16_ReverseList/ReverseList.h"
 
 int main() {
 
@@ -18,7 +24,13 @@ int main() {
 //    Test_7_QueueWithTwoStacks();
 //    Test_8_MinNumberInRotatedArray();
 //    Test_9_Fibonacci();
-    Tesst_10_NumberOf1InBinary();
+//    Tesst_10_NumberOf1InBinary();
+//    Test_11_Power();
+//    Test_12_Print1ToMaxOfNDigits();
+//    Test_13_DeleteNodeInList();
+//    Test_14_ReorderArray();
+//    Test_15_KthNodeFromEnd();
+    Test_16_ReverseList();
 
     return 0;
 }

@@ -9,9 +9,6 @@
 
 #include "../Utilities/List.h"
 
-class ReverseList {
-
-};
 
 ListNode* ReverseList(ListNode* pHead);
 

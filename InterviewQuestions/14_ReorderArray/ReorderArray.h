@@ -9,7 +9,7 @@
 
 void ReorderOddEven_1(int *pData, unsigned int length);
 
-// 增加函数应用
+// 增加函数应用，考虑拓展性
 void ReorderOddEven_2(int *pData, unsigned int length);
 
 void Reorder(int *pData, unsigned int length, bool (*func)(int));

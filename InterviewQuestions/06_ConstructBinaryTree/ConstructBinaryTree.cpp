@@ -92,7 +92,7 @@ void Test_ConstructBinaryTree(char *testName, int *preorder, int *inorder, int l
 //        4       5   6
 //         \         /
 //          7       8
-void Test1() {
+void Test1_ConstructBinaryTree() {
     const int length = 8;
     int preorder[length] = {1, 2, 4, 7, 3, 5, 6, 8};
     int inorder[length] = {4, 7, 2, 1, 5, 3, 8, 6};
@@ -110,7 +110,7 @@ void Test1() {
 //      4
 //     /
 //    5
-void Test2() {
+void Test2_ConstructBinaryTree() {
     const int length = 5;
     int preorder[length] = {1, 2, 3, 4, 5};
     int inorder[length] = {5, 4, 3, 2, 1};
@@ -128,7 +128,7 @@ void Test2() {
 //                  4
 //                   \
 //                    5
-void Test3() {
+void Test3_ConstructBinaryTree() {
     const int length = 5;
     int preorder[length] = {1, 2, 3, 4, 5};
     int inorder[length] = {1, 2, 3, 4, 5};
@@ -137,7 +137,7 @@ void Test3() {
 }
 
 // 树中只有一个结点
-void Test4() {
+void Test4_ConstructBinaryTree() {
     const int length = 1;
     int preorder[length] = {1};
     int inorder[length] = {1};
@@ -151,7 +151,7 @@ void Test4() {
 //          2       3
 //         / \     / \
 //        4   5   6   7
-void Test5() {
+void Test5_ConstructBinaryTree() {
     const int length = 7;
     int preorder[length] = {1, 2, 4, 5, 3, 6, 7};
     int inorder[length] = {4, 2, 5, 1, 6, 3, 7};
@@ -160,12 +160,12 @@ void Test5() {
 }
 
 // 输入空指针
-void Test6() {
+void Test6_ConstructBinaryTree() {
     Test_ConstructBinaryTree("Test6", NULL, NULL, 0);
 }
 
 // 输入的两个序列不匹配
-void Test7() {
+void Test7_ConstructBinaryTree() {
     const int length = 7;
     int preorder[length] = {1, 2, 4, 5, 3, 6, 7};
     int inorder[length] = {4, 2, 8, 1, 6, 3, 7};
@@ -175,12 +175,12 @@ void Test7() {
 
 void Test_6_ConstructBinaryTree() {
 
-    Test1();
-    Test2();
-    Test3();
-    Test4();
-    Test5();
-    Test6();
-    Test7();
+    Test1_ConstructBinaryTree();
+    Test2_ConstructBinaryTree();
+    Test3_ConstructBinaryTree();
+    Test4_ConstructBinaryTree();
+    Test5_ConstructBinaryTree();
+    Test6_ConstructBinaryTree();
+    Test7_ConstructBinaryTree();
 
 }
