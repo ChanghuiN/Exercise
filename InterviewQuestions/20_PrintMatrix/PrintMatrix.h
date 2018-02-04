@@ -13,6 +13,8 @@ void PrintMatrixClockwisely(int** numbers, int columns, int rows);
 // 打印一圈
 void PrintMatrixInCircle(int** numbers, int columns, int rows, int start);
 
+void printNumber(int number);
+
 void Test_PrintMatrix(int columns, int rows);
 
 void Test_20_PrintMatrix();

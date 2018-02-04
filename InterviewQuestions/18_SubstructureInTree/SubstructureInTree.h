@@ -17,7 +17,7 @@ bool HasSubtree(BinaryTreeNode* pRoot1, BinaryTreeNode* pRoot2);
 // 判断内容相同
 bool DoesTree1HaveTree2(BinaryTreeNode* pRoot1, BinaryTreeNode* pRoot2);
 
-void Test(char* testName, BinaryTreeNode* pRoot1, BinaryTreeNode* pRoot2, bool expected);
+void Test_SubstructureInTree(char* testName, BinaryTreeNode* pRoot1, BinaryTreeNode* pRoot2, bool expected);
 
 void Test_18_SubstructureInTree();
 

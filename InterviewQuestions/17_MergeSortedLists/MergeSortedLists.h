@@ -12,7 +12,7 @@
 
 ListNode* Merge(ListNode* pHead1, ListNode* pHead2);
 
-ListNode* Test(char* testName, ListNode* pHead1, ListNode* pHead2);
+ListNode* Test_MergeSortedLists(char* testName, ListNode* pHead1, ListNode* pHead2);
 
 void Test_17_MergeSortedLists();
 

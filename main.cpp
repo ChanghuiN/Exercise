@@ -13,7 +13,11 @@
 //#include "InterviewQuestions/13_DeleteNodeInList/DeleteNodeInList.h"
 //#include "InterviewQuestions/14_ReorderArray/ReorderArray.h"
 //#include "InterviewQuestions/15_KthNodeFromEnd/KthNodeFromEnd.h"
-#include "InterviewQuestions/16_ReverseList/ReverseList.h"
+//#include "InterviewQuestions/16_ReverseList/ReverseList.h"
+//#include "InterviewQuestions/17_MergeSortedLists/MergeSortedLists.h"
+//#include "InterviewQuestions/18_SubstructureInTree/SubstructureInTree.h"
+//#include "InterviewQuestions/19_MirrorOfBinaryTree/MirrorOfBinaryTree.h"
+#include "InterviewQuestions/20_PrintMatrix/PrintMatrix.h"
 
 int main() {
 
@@ -30,7 +34,11 @@ int main() {
 //    Test_13_DeleteNodeInList();
 //    Test_14_ReorderArray();
 //    Test_15_KthNodeFromEnd();
-    Test_16_ReverseList();
+//    Test_16_ReverseList();
+//    Test_17_MergeSortedLists();
+//    Test_18_SubstructureInTree();
+//    Test_19_MirrorOfBinaryTree();
+    Test_20_PrintMatrix();
 
     return 0;
 }
