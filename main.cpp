@@ -21,7 +21,11 @@
 //#include "InterviewQuestions/21_MinInStack/MinInStack.h"
 //#include "InterviewQuestions/22_StackPushPopOrder/StackPushPopOrder.h"
 //#include "InterviewQuestions/23_PrintTreeFromTopToBottom/PrintTreeFromTopToBottom.h"
-#include "InterviewQuestions/24_SquenceOfBST/SquenceOfBST.h"
+//#include "InterviewQuestions/24_SquenceOfBST/SquenceOfBST.h"
+//#include "InterviewQuestions/25_PathInTree/PathInTree.h"
+//#include "InterviewQuestions/26_CopyComplextList/CopyComplextList.h"
+//#include "InterviewQuestions/27_ConvertBinarySearchTree/ConvertBinarySearchTree.h"
+#include "InterviewQuestions/28_StringPermutation/StringPermutation.h"
 
 int main() {
 
@@ -46,7 +50,11 @@ int main() {
 //    Test_21_MinInStack();
 //    Test_22_StackPushPopOrder();
 //    Test_23_PrintTreeFromTopToBottom();
-    Test_24_SquenceOfBST();
+//    Test_24_SquenceOfBST();
+//    Test_25_PathInTree();
+//    Test_26_CopyComplextList();
+//    Test_27_ConvertBinarySearchTree();
+    Test_28_StringPermutation();
 
     return 0;
 }
