@@ -10,7 +10,7 @@
 #include "StackWithMin.h"
 
 
-void Test(char* testName, const StackWithMin<int>& stack, int expected);
+void Test_MinInStack(char* testName, const StackWithMin<int>& stack, int expected);
 
 void Test_21_MinInStack();
 

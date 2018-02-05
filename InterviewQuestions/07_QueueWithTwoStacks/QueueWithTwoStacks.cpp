@@ -2,6 +2,7 @@
 // Created by ChanghuiN on 2018/1/4.
 //
 
+#include <cstdio>
 #include "QueueWithTwoStacks.h"
 #include "Queue.h"
 

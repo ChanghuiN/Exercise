@@ -2,6 +2,8 @@
 // Created by ChanghuiN on 2018/1/4.
 //
 
+#include <cstdlib>
+#include <cstdio>
 #include "Tree.h"
 
 TreeNode* CreateTreeNode(int value)

@@ -17,7 +17,11 @@
 //#include "InterviewQuestions/17_MergeSortedLists/MergeSortedLists.h"
 //#include "InterviewQuestions/18_SubstructureInTree/SubstructureInTree.h"
 //#include "InterviewQuestions/19_MirrorOfBinaryTree/MirrorOfBinaryTree.h"
-#include "InterviewQuestions/20_PrintMatrix/PrintMatrix.h"
+//#include "InterviewQuestions/20_PrintMatrix/PrintMatrix.h"
+//#include "InterviewQuestions/21_MinInStack/MinInStack.h"
+//#include "InterviewQuestions/22_StackPushPopOrder/StackPushPopOrder.h"
+//#include "InterviewQuestions/23_PrintTreeFromTopToBottom/PrintTreeFromTopToBottom.h"
+#include "InterviewQuestions/24_SquenceOfBST/SquenceOfBST.h"
 
 int main() {
 
@@ -38,7 +42,11 @@ int main() {
 //    Test_17_MergeSortedLists();
 //    Test_18_SubstructureInTree();
 //    Test_19_MirrorOfBinaryTree();
-    Test_20_PrintMatrix();
+//    Test_20_PrintMatrix();
+//    Test_21_MinInStack();
+//    Test_22_StackPushPopOrder();
+//    Test_23_PrintTreeFromTopToBottom();
+    Test_24_SquenceOfBST();
 
     return 0;
 }

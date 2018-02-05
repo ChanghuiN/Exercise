@@ -44,7 +44,7 @@ template <typename T> T CQueue<T>::deleteHead() {
     }
 
     if (stack2.size() == 0)
-        throw new std::logic_error("queue is empty");
+        throw "queue is empty";
 
     T head = stack2.top();
     stack2.pop();

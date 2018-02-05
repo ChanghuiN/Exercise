@@ -4,6 +4,7 @@
 
 #include <cstdio>
 #include <cmath>
+#include <cstdlib>
 #include "Power.h"
 
 
