@@ -7,10 +7,7 @@
 #define EXERCISE_STRINGTOINT_H
 
 
-long long StrToIntCore(const char* str, bool minus);
-
-enum Status {kValid = 0, kInvalid};
-int g_nStatus = kValid;
+long long StrToIntCore(const char* digit, bool minus);
 
 int StrToInt(const char* str);
 

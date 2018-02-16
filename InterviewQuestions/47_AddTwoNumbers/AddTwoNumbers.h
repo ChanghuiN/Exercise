@@ -7,7 +7,6 @@
 #define EXERCISE_ADDTWONUMBERS_H
 
 
-
 int Add(int num1, int num2);
 
 void Test_AddTwoNumbers(int num1, int num2, int expected);

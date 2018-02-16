@@ -10,9 +10,9 @@ void Reverse(char *pBegin, char *pEnd){
         return;
     }
     while(pBegin < pEnd) {
-        char* tmp = pBegin;
-        pBegin = pEnd;
-        pEnd = tmp;
+        char tmp = *pBegin;
+        *pBegin = *pEnd;
+        *pEnd = tmp;
         pBegin++, pEnd--;
     }
 }

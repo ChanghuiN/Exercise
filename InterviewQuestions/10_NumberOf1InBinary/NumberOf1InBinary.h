@@ -15,7 +15,7 @@ int NumberOf1_Solution2(int n);
 
 void Test_NumberOf1InBinary(int number, unsigned int expected);
 
-void Tesst_10_NumberOf1InBinary();
+void Test_10_NumberOf1InBinary();
 
 
 #endif //EXERCISE_NUMBEROF1INBINARY_H

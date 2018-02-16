@@ -37,7 +37,7 @@ void Test_NumberOf1InBinary(int number, unsigned int expected) {
     printf("\n");
 }
 
-void Tesst_10_NumberOf1InBinary() {
+void Test_10_NumberOf1InBinary() {
 
     // 输入0，期待的输出是0
     Test_NumberOf1InBinary(0, 0);

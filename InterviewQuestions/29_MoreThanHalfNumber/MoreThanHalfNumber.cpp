@@ -4,6 +4,7 @@
 
 #include <cstdio>
 #include "MoreThanHalfNumber.h"
+#include "../Utilities/Array.h"
 
 bool g_bInputInvalid = false;
 
@@ -11,7 +12,7 @@ bool g_bInputInvalid = false;
 bool CheckInvalidArray(int *numbers, int length) {
 
     g_bInputInvalid = false;
-    if(numbers == NULL && length <= 0)
+    if (numbers == NULL && length <= 0)
         g_bInputInvalid = true;
 
     return g_bInputInvalid;
@@ -37,11 +38,33 @@ bool CheckMoreThanHalf(int *numbers, int length, int number) {
 // 基于Partition函数的算法
 int MoreThanHalfNum_Solution1(int *numbers, int length) {
 
+    if (CheckInvalidArray(numbers, length))
+        return 0;
+
+    int middle = length >> 1;
+    int start = 0;
+    int end = length - 1;
+    int index = Partition(numbers, length, start, end);
+    while (index != middle) {
+        if (index > middle) {
+            end = index - 1;
+            index = Partition(numbers, length, start, end);
+        } else {
+            start = index + 1;
+            index = Partition(numbers, length, start, end);
+        }
+    }
+
+    int result = numbers[middle];
+    if (!CheckMoreThanHalf(numbers, length, result))
+        result = 0;
+
+    return result;
 }
 
 // 基于数组特点
 int MoreThanHalfNum_Solution2(int *numbers, int length) {
-    if(CheckInvalidArray(numbers, length))
+    if (CheckInvalidArray(numbers, length))
         return 0;
 
     int result = numbers[0];
@@ -56,7 +79,7 @@ int MoreThanHalfNum_Solution2(int *numbers, int length) {
             times--;
     }
 
-    if(!CheckMoreThanHalf(numbers, length, result))
+    if (!CheckMoreThanHalf(numbers, length, result))
         result = 0;
 
     return result;
@@ -64,23 +87,23 @@ int MoreThanHalfNum_Solution2(int *numbers, int length) {
 
 void Test_MoreThanHalfNumber(char *testName, int *numbers, int length, int expectedValue, bool expectedFlag) {
 
-    if(testName != NULL)
+    if (testName != NULL)
         printf("%s begins: \n", testName);
 
-    int* copy = new int[length];
-    for(int i = 0; i < length; ++i)
+    int *copy = new int[length];
+    for (int i = 0; i < length; ++i)
         copy[i] = numbers[i];
 
     printf("Test for solution1: ");
     int result = MoreThanHalfNum_Solution1(numbers, length);
-    if(result == expectedValue && g_bInputInvalid == expectedFlag)
+    if (result == expectedValue && g_bInputInvalid == expectedFlag)
         printf("Passed.\n");
     else
         printf("Failed.\n");
 
     printf("Test for solution2: ");
     result = MoreThanHalfNum_Solution2(copy, length);
-    if(result == expectedValue && g_bInputInvalid == expectedFlag)
+    if (result == expectedValue && g_bInputInvalid == expectedFlag)
         printf("Passed.\n");
     else
         printf("Failed.\n");

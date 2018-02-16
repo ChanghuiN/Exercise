@@ -4,18 +4,17 @@
 
 #include <cstdio>
 #include <cmath>
-#include <cstdlib>
 #include "Power.h"
 
 
-bool g_InvalidInput = false;
+bool g_InvalidInput_11 = false;
 
 double Power(double base, int exponent) {
 
-    g_InvalidInput = false;
+    g_InvalidInput_11 = false;
 
     if (equal(base, 0.0) && exponent < 0) {
-        g_InvalidInput = true;
+        g_InvalidInput_11 = true;
         return 0.0;
     }
 
@@ -55,7 +54,7 @@ bool equal(double num1, double num2) {
 void Test_Power(double base, int exponent, double expectedResult, bool expectedFlag) {
 
     double result = Power(base, exponent);
-    if (abs(result - expectedResult) < 0.00000001 && g_InvalidInput == expectedFlag)
+    if (abs(result - expectedResult) < 0.00000001 && g_InvalidInput_11 == expectedFlag)
         printf("Test passed.\n");
     else
         printf("Test failed.\n");

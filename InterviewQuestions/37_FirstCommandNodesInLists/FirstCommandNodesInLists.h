@@ -10,6 +10,8 @@
 #include "../Utilities/List.h"
 
 
+unsigned int GetListLength(ListNode* pHead);
+
 ListNode* FindFirstCommonNode( ListNode *pHead1, ListNode *pHead2);
 
 void Test_FirstCommandNodesInLists(char* testName, ListNode* pHead1, ListNode* pHead2, ListNode* pExpected);
